@@ -14,7 +14,24 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    @IBOutlet weak var returnedTextLabel: UILabel!
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if  segue.identifier == "modalSegue" {
+            let vc = segue.destination as? PresentedViewController
+            vc?.delegate = self
+        }
+    }
 
-
+    @IBAction func presentScreenTapped(_ sender: Any) {
+        performSegue(withIdentifier: "modalSegue", sender: nil)
+    }
 }
 
+extension ViewController: PresentedViewControllerDelegate {
+    func processString(myString: String) {
+        returnedTextLabel.text = myString
+    }
+    
+    
+}

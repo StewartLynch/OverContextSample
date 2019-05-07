@@ -12,6 +12,7 @@
 		BBC37B162281C6C100B75090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC37B142281C6C100B75090 /* Main.storyboard */; };
 		BBC37B182281C6C300B75090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC37B172281C6C300B75090 /* Assets.xcassets */; };
 		BBC37B1B2281C6C300B75090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC37B192281C6C300B75090 /* LaunchScreen.storyboard */; };
+		BBC37B232281C71500B75090 /* PresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC37B222281C71500B75090 /* PresentedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BBC37B172281C6C300B75090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBC37B1A2281C6C300B75090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBC37B1C2281C6C300B75090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC37B222281C71500B75090 /* PresentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				BBC37B102281C6C100B75090 /* AppDelegate.swift */,
 				BBC37B122281C6C100B75090 /* ViewController.swift */,
 				BBC37B142281C6C100B75090 /* Main.storyboard */,
+				BBC37B222281C71500B75090 /* PresentedViewController.swift */,
 				BBC37B172281C6C300B75090 /* Assets.xcassets */,
 				BBC37B192281C6C300B75090 /* LaunchScreen.storyboard */,
 				BBC37B1C2281C6C300B75090 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				BBC37B132281C6C100B75090 /* ViewController.swift in Sources */,
 				BBC37B112281C6C100B75090 /* AppDelegate.swift in Sources */,
+				BBC37B232281C71500B75090 /* PresentedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
